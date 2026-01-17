@@ -10,6 +10,7 @@
     this is my first php website
     <br>
   <?php 
+  define ('pi', 3.14);
     echo "Hello This is Printed";
     $variable1 = 5;
     $variable2 = 2;
@@ -67,21 +68,33 @@ echo "<br>";
 // xor
 // !
 $myVar = (true and true);
-echo var_dump($myVar);
+// echo var_dump($myVar);
+// echo "<br>";
+// $myVar = (true and false);
+// echo var_dump($myVar);
+// echo "<br>";
+// $myVar = (false and true);
+// echo var_dump($myVar);
+// echo "<br>";
+// $myVar = (false and false);
+// echo var_dump($myVar);
+// echo "<br>";
+// $myVar = (true xor false);
+// echo var_dump($myVar);
+echo "<br>Data Type<br>";
+$var = "This is string";
+echo var_dump($var);
 echo "<br>";
-$myVar = (true and false);
-echo var_dump($myVar);
+$var = 67;
+echo var_dump($var);
 echo "<br>";
-$myVar = (false and true);
-echo var_dump($myVar);
+$var = 67.1;
+echo var_dump($var);
 echo "<br>";
-$myVar = (false and false);
-echo var_dump($myVar);
+$var = true;
+echo var_dump($var);
 echo "<br>";
-$myVar = (true xor false);
-echo var_dump($myVar);
-echo "<br>";
-
+echo pi;
 
 
     ?>
