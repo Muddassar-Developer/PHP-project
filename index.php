@@ -3,101 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Tutorial</title>
+    <title>Well Come to travel Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-    this is my first php website
-    <br>
-  <?php 
-  define ('pi', 3.14);
-    echo "Hello This is Printed";
-    $variable1 = 5;
-    $variable2 = 2;
-    echo $variable1;
-    echo $variable2;
-//   operators in PHP
-// Arithmetic Operators
-echo "<br>";
-echo "The value of variable1 + variable2 is ";
-echo $variable1 + $variable2;
-echo "<br>";
-echo "The value of variable1 - variable2 is ";
-echo $variable1 - $variable2;
-echo "<br>";
-echo "The value of variable1 * variable2 is ";
-echo $variable1 * $variable2;
-echo "<br>";
-echo "The value of variable1 / variable2 is ";
-echo $variable1 / $variable2;
-echo "<br>";
-
-// Assignment Operators
-$newVar = $variable1;
-// $newVar += 1;
-// $newVar -= 1;
-// $newVar *= 2;
-$newVar /= 2;
-echo "The value of newVar is ";
-echo $newVar;
-echo "<br>";
-// Comparison Operators
-echo "The value of 1==4 is ";
-echo var_dump(1==4);
-echo "<br>";
-echo "The value of 1!=4 is ";
-echo var_dump(1!=4);
-echo "<br>";
-echo "The value of 1>=4 is ";
-echo var_dump(1>=4);
-echo "<br>";
-echo "The value of 1<=4 is ";
-echo var_dump(1<=4);
-echo "<br>";
-// Increment/Decrement Operators
-// echo $variable1++;
-// echo $variable1--;
-// echo --$variable1;
-echo ++$variable1;
-echo "<br>";
-echo $variable1;
-echo "<br>";
-// Logical Operators
-// and (&&)
-// or (||)
-// xor
-// !
-$myVar = (true and true);
-// echo var_dump($myVar);
-// echo "<br>";
-// $myVar = (true and false);
-// echo var_dump($myVar);
-// echo "<br>";
-// $myVar = (false and true);
-// echo var_dump($myVar);
-// echo "<br>";
-// $myVar = (false and false);
-// echo var_dump($myVar);
-// echo "<br>";
-// $myVar = (true xor false);
-// echo var_dump($myVar);
-echo "<br>Data Type<br>";
-$var = "This is string";
-echo var_dump($var);
-echo "<br>";
-$var = 67;
-echo var_dump($var);
-echo "<br>";
-$var = 67.1;
-echo var_dump($var);
-echo "<br>";
-$var = true;
-echo var_dump($var);
-echo "<br>";
-echo pi;
+    <img class="bg" src="bj.jpg" alt="Lahore Uni">
+   <div class="container">
+    <h1>Well Come to Lahore University Murree Trip Form</h1>
+    <p>Please enter your details and submit this form to confirm participation in the trip.</p>
+<form action="index.php" method="post"></form>
+<input type="text" name="name" id="name" placeholder="Enter Your Name">
+<input type="text" name="age" id="age" placeholder="Enter Your age">
+<input type="text" name="gender" id="gender" placeholder="Enter Your gender">
+<input type="email" name="email" id="email" placeholder="Enter Your Email">
+<input type="Phone" name="Phone" id="Phone" placeholder="Enter Your Phone Number">
+<textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here."></textarea>
+<button class="btn">Submit</button>
 
 
-    ?>
-</dive>
+
+
+   </div> 
+<script src="index.js"></script>
 </body>
 </html>
