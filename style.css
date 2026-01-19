@@ -4,18 +4,27 @@
     box-sizing: border-box;
 
 }
-.container{
+.container {
     max-width: 80%;
-   
     padding: 34px;
     margin: auto;
- 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers h1, p, form */
 }
+
+ 
+
 .container h1, p{
     text-align: center;
 }
 p{
     font-size: 17px;
+}
+.submitSmg{
+    font-size: 25px;
+    color: #129e0c;
 }
 input, textarea{
     
